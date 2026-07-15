@@ -12,7 +12,7 @@ body {
   background-color: hsl(0, 0%, 100%);
   width: 320px;
   height: 499px;
-  border-radius: 5px;
+  border-radius: 20px;
 }
 
 img {
@@ -20,7 +20,7 @@ img {
   align-items: center;
   height: 288px;
   width: 288px;
-  border-radius: 5px;
+  border-radius: 10px;
   margin-left: 15px;
   padding-top: 10px;
 }
