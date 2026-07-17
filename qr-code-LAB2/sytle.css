@@ -6,11 +6,11 @@
   justify-content: center;
   align-items: center;
   margin: auto;
-  height:100vh;
+  height: 100vh;
 }
 
 .qr-header {
-  font-weight:bold;
+  font-weight: bold;
   font-size: 22px;
   line-height: 120%;
   letter-spacing: 0px;
@@ -20,8 +20,8 @@
 .scan-prompt {
   font-size: 15px;
   line-height: 140%;
-  letter-spacing: .2px;
-  font-weight:200;
+  letter-spacing: 0.2px;
+  font-weight: 200;
 }
 body {
   background-color: hsl(212, 45%, 89%);
@@ -30,6 +30,7 @@ body {
   align-items: center;
   flex-direction: column;
   max-width: 1440px;
+  max-height: 960px;
   text-align: center;
 }
 
@@ -48,4 +49,27 @@ img {
   width: 288px;
   border-radius: 20px;
   margin-left: 15px;
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 768px;
+    text-align: center;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    background-color: hsl(212, 45%, 89%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 480px;
+    text-align: center;
+  }
 }

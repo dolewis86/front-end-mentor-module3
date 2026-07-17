@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css?family=Figtree:300,regular,500,600,700,800,900,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+:root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Figtree, sans-serif;
+  height: 100vh;
+}
+
+body {
+  background-color: #f4d04e;
+}
+
+.main-container {
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  background-color: #ffffff;
+  width: 384px;
+  height: 522px;
+  border-radius: 20px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-bottom: 8px;
+  box-shadow: 8px 8px;
+}
+
+#blog-art {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.blog-art {
+  border-radius: 10px;
+}
+
+.learning-bg {
+  display: inline-block;
+  background-color: #f4d04e;
+}
+
+.learning-header {
+  font-weight: bold;
+  letter-spacing: 0;
+  margin: 5px;
+  padding: 4px 24px;
+}
+
+.profile-pic {
+  max-width: fit-content;
+  margin-right: 16px;
+  height: 32px;
+  width: 32px;
+}
+
+.greg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.sub-container {
+  margin-left: 24px;
+}
+
+.sub-container > * {
+  margin-top: 24px;
+}
+
+.published-header {
+  font-weight: 500;
+}
+
+.html-header {
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.description {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.greg-name {
+  font-weight: 700;
+  font-size: 16px;
+}
